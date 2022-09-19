@@ -1,0 +1,114 @@
+:root {
+     --dark-green: #51710a;
+     --light-green: #c5d200;
+     --dark-grey: #424242;
+     --light-grey: #f5f5f5;
+}
+* {
+     transition: 0.5s;
+}
+.button {
+     text-decoration: none;
+     color: var(--light-grey);
+     padding: 10px;
+     text-align: left;
+     border-radius: 10px;
+}
+.primary-button {
+     background-color: var(--dark-green);
+}
+.primary-button:hover {
+     background-color: var(--light-green);
+     color: var(--dark-grey);
+}
+header {
+     background-color: var(--dark-green);
+     height: 12vh;
+}
+header .container .row {
+     height: 12vh;
+}
+header img {
+     width: 9vh;
+     background-color: var(--light-grey);
+     border-radius: 1000px;
+     border: var(--light-grey) 1px solid;
+     cursor: pointer;
+}
+header a {
+     text-decoration: none;
+     color: var(--light-grey);
+     cursor: pointer;
+}
+header a:hover {
+     color: var(--light-green);
+}
+
+.carousel-item {
+     height: 89vh;
+     width: 100%;
+     background-color: var(--dark-grey);
+     color: var(--light-grey);
+}
+.carousel-item img {
+     opacity: 0.3;
+     filter: saturate(1.5);
+}
+#home-col {
+     color: var(--dark-grey);
+}
+#home-col img {
+     height: 320px;
+}
+#products .col-4 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+#home-img{
+     filter: saturate(1.5);
+}
+.products-title {
+     color: var(--dark-green);
+}
+#store .card {
+     width: 300px;
+}
+#store .card-body {
+     width: fit-content;
+     margin: 0 auto;
+}
+#store .card-body .card-title {
+     margin-bottom: 25px;
+}
+.frame {
+     height: 200px;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 25px;
+}
+.frame img {
+     height: 200px;
+}
+.clothes-title {
+     color: var(--dark-green);
+}
+footer {
+     background-color: var(--dark-green);
+     color: var(--light-grey);
+}
+
+.product img{
+     height: 200px !important;
+}
+.green{
+     color: var(--dark-green);
+}
+#search-bar:focus{
+     border-color: var(--dark-green) !important;
+     box-shadow: var(--light-green) 0 0 0 0.1rem !important;
+     color: var(--dark-grey) !important;
+}
